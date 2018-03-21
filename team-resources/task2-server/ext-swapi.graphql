@@ -4,8 +4,8 @@ type Homeworld {
 }
 
 type Specie {
-  designation: String @examples(value:["sentient", "reptilian", "human", "droid")
-  language: String @examples(value:["Gungan basic", "Toydarian", "Neimoidia", "Galactic basic")
+  designation: String @examples(values:["sentient", "reptilian", "human", "droid"])
+  language: String @examples(values:["Gungan basic", "Toydarian", "Neimoidia", "Galactic basic"])
   subEspecies: [Specie!]
   homeworld: Homeworld
 }
@@ -13,5 +13,5 @@ type Specie {
 type Query {
   species(id: ID): Specie
   homeworld(id: ID): Homeworld
-  allCompanies: [Homeworld!]
+  allHomeworlds: [Homeworld!]
 }
