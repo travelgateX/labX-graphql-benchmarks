@@ -13,6 +13,5 @@ type Specie {
 type Query {
   species(id: ID): Specie
   homeworld(id: ID): Homeworld
-  allCompanies: [Homeworld!]
+  allHomeworlds: [Homeworld!]
 }
-    
