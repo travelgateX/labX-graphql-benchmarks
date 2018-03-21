@@ -4,8 +4,8 @@ type Homeworld {
 }
 
 type Specie {
-  designation: String @examples(value:["sentient", "reptilian", "human", "droid")
-  language: String @examples(value:["Gungan basic", "Toydarian", "Neimoidia", "Galactic basic")
+  designation: String @examples(value:["sentient", "reptilian", "human", "droid"])
+  language: String @examples(value:["Gungan basic", "Toydarian", "Neimoidia", "Galactic basic"])
   subEspecies: [Specie!]
   homeworld: Homeworld
 }
