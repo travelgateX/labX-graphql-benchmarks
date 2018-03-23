@@ -66,7 +66,7 @@
       name
     }
   }
-  starship(id:2000){
+  starship(id:3000){
     name
     length
   }
@@ -163,7 +163,7 @@ mutation {
       name
     }
   }
-  starship(id: 2000) {
+  starship(id: 3000) {
     name
     length
   }
