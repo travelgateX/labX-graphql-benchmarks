@@ -1,3 +1,7 @@
+schema {
+  query: Query
+  mutation: Mutation
+}
 # A character from the Star Wars universe
 interface Character {
   # The ID of the character
@@ -65,7 +69,7 @@ type Human implements Character {
 
   # A list of starships this person has piloted, or an empty list if none
   starships: [Starship]
-  
+
   # Where this human is
   homeworld: Homeworld
 }
@@ -130,13 +134,13 @@ type Starship {
 }
 
 type Homeworld {
-  name: String @examples(values: ["Tatooine", "Naboo", "Alderaan", "Eriadu", "Yavin IV", "Endor", "Coruscant", "unknown"])
+  name: String
   species: [Specie!]
 }
 
 type Specie {
-  designation: String @examples(values:["sentient", "reptilian", "human", "droid"])
-  language: String @examples(values:["Gungan basic", "Toydarian", "Neimoidia", "Galactic basic"])
+  designation: String
+  language: String
   subEspecies: [Specie!]
   homeworld: Homeworld
 }
