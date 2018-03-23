@@ -88,14 +88,16 @@ mutation {
 
 ### Goals
 
-* Mount a GraphQL server:
-  - [Task1 GraphQL Schema](task2-schema.graphql)
+
+* Mount a second GraphQL Server using graphql-faker. [task2-server](task2-server)
+* Composition: Mount a GraphQL server:
+  - [Task2 GraphQL Schema](task2-schema.graphql)
   - Data:
     - [droids.json](droids.json)
     - [films.json](films.json)
     - [humans.json](humans.json)
     - [starships.json](starships.json)
-
+    - Compose the data from the other server
 * Dockerize it
 * Put the keys for replicate it in the README.md file
 
@@ -298,3 +300,4 @@ mutation {
 * https://github.com/graph-gophers/graphql-go/tree/master/example/starwars/server
 * https://github.com/graphql/swapi-graphql
 * https://swapi.co/api/
+* https://github.com/APIs-guru/graphql-faker
