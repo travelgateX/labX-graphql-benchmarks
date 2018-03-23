@@ -84,6 +84,214 @@ mutation {
 }
 ```
 
+## Task2
+
+### Goals
+
+* Mount a GraphQL server:
+  - [Task1 GraphQL Schema](task2-schema.graphql)
+  - Data:
+    - [droids.json](droids.json)
+    - [films.json](films.json)
+    - [humans.json](humans.json)
+    - [starships.json](starships.json)
+
+* Dockerize it
+* Put the keys for replicate it in the README.md file
+
+
+### Graph
+
+#### Query Root
+![Task 2 Graph](task2_query.png)
+
+### Examples
+
+#### Query
+
+```
+{
+  hero {
+    id
+    name
+    friends {
+      id
+      name
+      appearsIn
+      friends {
+        id
+        name
+        appearsIn
+      }
+    }
+  }
+  reviews(episode: EMPIRE) {
+    stars
+    commentary
+  }
+  search(text: "a") {
+    ... on Human {
+      name
+      homeworld {
+        name
+        species {
+          designation
+          language
+          subEspecies {
+            designation
+            language
+            homeworld {
+              name
+            }
+          }
+        }
+      }
+    }
+    ... on Droid {
+      name
+    }
+    ... on Starship {
+      name
+    }
+  }
+  character(id: 1000) {
+    name
+    appearsIn
+    friends {
+      name
+    }
+  }
+  starship(id: 2000) {
+    name
+    length
+  }
+  allHomeworlds {
+    name
+    species {
+      designation
+      language
+      subEspecies {
+        designation
+        language
+        subEspecies {
+          designation
+          homeworld {
+            name
+            species {
+              designation
+            }
+          }
+        }
+      }
+    }
+  }
+  allHomeworlds {
+    name
+    species {
+      designation
+      language
+      subEspecies {
+        designation
+        language
+        subEspecies {
+          designation
+          homeworld {
+            name
+            species {
+              designation
+            }
+          }
+        }
+      }
+    }
+  }
+  allHomeworlds {
+    name
+    species {
+      designation
+      language
+      subEspecies {
+        designation
+        language
+        subEspecies {
+          designation
+          homeworld {
+            name
+            species {
+              designation
+            }
+          }
+        }
+      }
+    }
+  }
+  allHomeworlds {
+    name
+    species {
+      designation
+      language
+      subEspecies {
+        designation
+        language
+        subEspecies {
+          designation
+          homeworld {
+            name
+            species {
+              designation
+            }
+          }
+        }
+      }
+    }
+  }
+  allHomeworlds {
+    name
+    species {
+      designation
+      language
+      subEspecies {
+        designation
+        language
+        subEspecies {
+          designation
+          homeworld {
+            name
+            species {
+              designation
+            }
+          }
+        }
+      }
+    }
+  }
+  allHomeworlds {
+    name
+    species {
+      designation
+      language
+      subEspecies {
+        designation
+        language
+        subEspecies {
+          designation
+          homeworld {
+            name
+            species {
+              designation
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+```
+
+
+
 ## References
 
 * https://apis.guru/graphql-voyager/
