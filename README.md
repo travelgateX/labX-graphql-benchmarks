@@ -1,4 +1,27 @@
-# labx-graphql-benchmarks
+# labX GraphQL Benchmarks
+
+# Running the benchmarks
+
+## The scenarios
+
+## Setting up the web server
+
+## Generating Load
+
+# Details
+
+## Environment
+We're using the following physical machines to perform these tests:
+
+| Name | OS | Role | CPU | RAM | NIC | Notes |
+| ---- | --- | ---- | --- | --- | --- | ----- |
+
+## Load Generation
+
+# Results
+For each stack, variations of the load parameters and multiple runs are tested and the highest result is recorded. Detailed results are tracked at .
+
+# References
 
 * Benchmarks Examples:
 
