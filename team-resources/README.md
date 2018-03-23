@@ -2,14 +2,14 @@
 
 ## Task1
 
-![Task 1 Graph](
 
 ## Graph
 
 ### Query Root
-![Task 1 Graph](team-resources/task1_query.png)
+![Task 1 Graph](task1_query.png)
+
 ### Mutation Root
-![Task 1 Graph](team-resources/task1_mutation.png)
+![Task 1 Graph](task1_mutation.png)
 
 
 
