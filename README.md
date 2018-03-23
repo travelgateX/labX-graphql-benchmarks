@@ -29,7 +29,7 @@ We're using the following machines to perform these tests:
 ## Load Generation
 
 # Results
-For each stack, variations of the load parameters and multiple runs are tested and the highest result is recorded. Detailed results are tracked at .
+For each stack, variations of the load parameters and multiple runs are tested and the highest result is recorded. Detailed results are tracked in [Google Data Studio Report](https://datastudio.google.com/open/1BBri6dUq1yHW8wgF5_1XbWmw8L6fMsqp).
 
 # References
 
