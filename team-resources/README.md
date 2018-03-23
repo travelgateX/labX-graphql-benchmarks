@@ -13,7 +13,7 @@
     - [starships.json](starships.json)
 
 * Dockerize it
-* Put the keys in the README.md file
+* Put the keys for replicate it in the README.md file
 
 
 ### Graph
@@ -86,7 +86,7 @@ mutation {
 
 ## References
 
-https://apis.guru/graphql-voyager/
-https://github.com/graph-gophers/graphql-go/tree/master/example/starwars/server
-https://github.com/graphql/swapi-graphql
-https://swapi.co/api/
+* https://apis.guru/graphql-voyager/
+* https://github.com/graph-gophers/graphql-go/tree/master/example/starwars/server
+* https://github.com/graphql/swapi-graphql
+* https://swapi.co/api/
