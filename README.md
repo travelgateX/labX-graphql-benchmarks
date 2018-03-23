@@ -4,14 +4,24 @@
 
 ## The scenarios
 
-## Setting up the web server
+## Setting up the servers
+
+| Stack | Tool | Repo & Team | Notes |
+| ----- | ---- | --------- | ----- |
+| Go | [graph-gophers](https://github.com/graph-gophers/graphql-go) | [labX-graphql-go-graphq-gophers](https://github.com/travelgateX/labX-graphql-go-graphq-gophers) |  |
+| Go | [graphql-go](https://github.com/graphql-go/graphql) | [labX-graphql-go](https://github.com/travelgateX/labX-graphql-go) |  |
+| Dotnet | [graphql-dotnet](https://github.com/graphql-dotnet/graphql-dotnet) | [labX-graphql-dotnet](https://github.com/travelgateX/labX-graphql-dotnet) |  |
+| NodeJS | [apollo-server](https://github.com/apollographql/apollo-server) | [labX-graphql-nodejs-apollographql](https://github.com/travelgateX/labX-graphql-nodejs-apollographql) |  |
+| Scala | [sangria](https://github.com/sangria-graphql/sangria) | [labX-graphql-scala-sangria](https://github.com/travelgateX/labX-graphql-scala-sangria) |  |
+
+
 
 ## Generating Load
 
 # Details
 
 ## Environment
-We're using the following physical machines to perform these tests:
+We're using the following machines to perform these tests:
 
 | Name | OS | Role | CPU | RAM | NIC | Notes |
 | ---- | --- | ---- | --- | --- | --- | ----- |
