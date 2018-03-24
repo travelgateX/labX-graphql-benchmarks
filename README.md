@@ -30,7 +30,7 @@ We're using the following machines to perform these tests:
 
 # Results
 
-| Stack | Avg | Median | 90% Line | 95% Line | 99% Line | Mín | Máx | % Error | Rendimiento | Kb/sec | Sent KB/sec |
+| Stack | Avg | Median | 90% Line | 95% Line | 99% Line | Mín | Máx | % Error |Performance| Kb/sec | Sent KB/sec |
 | -------- | ----- | ------- | -------- | -------- | -------- | --- | --- | ------- | ----------- | ------ | ----------- |
 | GO1 | 99 | 72 | 216 | 235 | 287 | 62 | 1109 | 0,000% | 474 | 83381 | 93,67 | 183,63 |
 | SCALA | 897 | 427 | 3098 | 3111 | 3124 | 68 | 3254 | 0,000% | 206 | 10058 | 44,48 | 80,11 |
