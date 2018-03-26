@@ -42,7 +42,7 @@ We're using the following machines to perform these tests:
 | % Error | 0,000% | 0,000% | 0,000% | 0,000% | 0,000% |
 | Performance | 474 | 206 | 400 | 263,01946 | 734 |
 | Kb/sec | 83381 | 10058 | 89,84 | 96,58 | 34918 |
-| Sent | KB/sec | 93,67 | 44,48 | 155,86 | 100,69 | 184,48 |
+| Sent KB/sec | 93,67 | 44,48 | 155,86 | 100,69 | 184,48 |
 
 
 
